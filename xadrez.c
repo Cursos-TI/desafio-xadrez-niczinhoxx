@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 int main(){
-#
+
 // Váriavel do Bispo    
 int bispo = 0;
 // Váriavel da Rainha
 int rainha = 0;
+// Váriavel do Cavalo
+int cavalo = 1;
+
 
 
     // Torre 5 casas para direita com For
@@ -42,5 +45,22 @@ int rainha = 0;
     }
 
 
+    printf("==========================\n");
+
+    // movimento do cavalo
+
+    printf("Movimento do cavalo\n");
+
+    while (cavalo--)
+    {
+        for(int i = 0; i < 2; i++)
+        {
+            printf("Cima\n");
+        }
+
+        printf("Direita\n");
+        /* code */
+    }
+    
     return 0;
 }
